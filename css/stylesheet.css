@@ -1,43 +1,61 @@
 body {
   color: #333;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin: 0px;
   padding: 0px;
 }
 
-#container {
-  width: 70%;
-  padding: 1em;
-  text-align: left;
-  border: 1px solid #ddd;
-  margin: 0px auto;
-}
-
-#container h1 {
-  font-size: 20px;
-}
-
 #header {
-  background: #33a;
+  background: #02a9f7;
   color: white;
-  font-weight: bold;
-  box-shadow: 0 2px 20px 0 rgb(0, 0, 0, 0.75);
-  margin: 0;
   padding: 0.5em;
 }
 
-#container #tagLine {
-  padding: 0 0 0 1em;
-  font-weight: normal;
-  font-size: 0.8em;
+h1 {
+  font-size: 25px;
+}
+
+#post {
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#post p {
+  text-align: justify;
+}
+
+#blogImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 50%;
 }
 
 #footer {
-  padding: 0.5em;
+  padding: 1em 0;
   text-align: center;
-  background-color: blue;
+  background-color: #434a54;
   color: white;
-  font-size: 10px;
+  font-size: 12px;
+  font-style: italic;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.column {
+  float: left;
+  width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
