@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+  #post {
+    display: inherit;
+  }
+
+  .img-container {
+    width: 100%;
+  }
+
+  .text-container {
+    width: 100%;
+  }
+}

@@ -1,6 +1,5 @@
 body {
   color: #333;
-  text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   margin: 0px;
@@ -11,17 +10,28 @@ body {
   background: #02a9f7;
   color: white;
   padding: 0.5em;
+  text-align: center;
 }
 
 h1 {
   font-size: 25px;
 }
 
+.img-container {
+  width: 30%;
+  align-items: center;
+}
+
+.text-container {
+  width: 70%;
+}
+
 #post {
-  padding: 1em;
+  padding: 20px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  display: flex;
 }
 
 #post p {
@@ -32,30 +42,19 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 40%;
   border-radius: 50%;
 }
 
-#footer {
+.footer {
   padding: 1em 0;
   text-align: center;
   background-color: #434a54;
   color: white;
   font-size: 12px;
   font-style: italic;
+  left: 0;
   bottom: 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
-}
-
-.column {
-  float: left;
-  width: 40%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
