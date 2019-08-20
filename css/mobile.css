@@ -1,6 +1,7 @@
 @media (max-width: 600px) {
   #post {
     display: inherit;
+    padding: 5%;
   }
 
   .img-container {
